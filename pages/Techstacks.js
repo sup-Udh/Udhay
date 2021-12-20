@@ -75,7 +75,7 @@ export default function Techstacks(){
             <div>
                 <h1 className='text-white text-center text-xl pt-[100px]'>Other</h1>
 
-                <p className='text-white text-center pt-5'>Recently Got into CyberSecurity and Bitcoin Mining Check out my <span className='underline'>Personal Intrests </span></p>
+                <p className='text-white text-center pt-5'>Recently Got into CyberSecurity and Bitcoin Mining </p>
             </div>
 
         </body>

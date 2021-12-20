@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Link from 'next/link';
+
 import styles from '../styles/Home.module.css'
 import Image from 'next/image';
 import Covidm from '../public/Covidm.png'
@@ -20,9 +22,12 @@ export default function Techstacks(){
   </span>
 
   <span>
+      <Link>
       <a href="https://github.com/Covidm">
+          
   <img src="https://img.icons8.com/material-outlined/48/000000/github.png"/>
   </a>
+  </Link>
   </span>
 {/* Illutration */}
 

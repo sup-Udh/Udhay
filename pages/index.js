@@ -26,8 +26,14 @@ export default function Home() {
   <Link href="/">
   <a className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">Udhay</a>
   </Link>
-  <a href="/Work" className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">See my Work</a>
-  <a href="/Techstacks" className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">My tech-stacks</a>
+
+  <Link href="/Work">
+  <a className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">See my Work</a>
+</Link>
+<Link href="/Techstacks">
+<a  className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">My tech-stacks</a>
+
+</Link>
 
 
 </nav>

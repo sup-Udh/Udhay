@@ -23,17 +23,10 @@ export default function Home() {
 
       <body className="bg-gray-800">
       <nav className="flex justify-center space-x-4">
-  <Link href="/">
-  <a className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">Udhay</a>
-  </Link>
 
-  <Link href="/Work">
-  <a className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">See my Work</a>
-</Link>
-<Link href="/Techstacks">
-<a  className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">My tech-stacks</a>
-
-</Link>
+      <a href='/' className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">Udhay</a>
+      <a href="/Work" className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">See my Work</a>
+      <a href="/Techstacks" className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">My tech-stacks</a>
 
 
 </nav>

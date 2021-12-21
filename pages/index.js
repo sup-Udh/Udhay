@@ -61,8 +61,14 @@ export default function Home() {
           </p>
         </div>
         <div  className='pt-5 flex  justify-center'>
-          <a href="https://github.com/code123841"><img  src="https://img.icons8.com/color/48/000000/github--v3.png"/></a>
-          <a href="https://twitter.com/Udhay26903569" className="pl-4"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
+          <Link href="https://github.com/code123841">
+          <a><img  src="https://img.icons8.com/color/48/000000/github--v3.png"/></a>
+          </Link>
+
+          <Link href="https://twitter.com/Udhay26903569">
+          <a className="pl-4"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
+
+          </Link>
           </div>
 
 

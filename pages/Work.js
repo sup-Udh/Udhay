@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Covidm from '../public/Covidm.png'
 import Devgram from '../public/Devgram.png'
 import Linuz from '../public/Linux.png'
-
+import Link from 'next/link'
 export default function Work(){
     return(
         <body className='bg-gray-900 text-white text-lg text-center '>
@@ -22,17 +22,24 @@ export default function Work(){
   </span>
 
   <span>
-      <a href="https://github.com/Covidm">
+
+    <Link href="https://github.com/Covidm">
+      <a>
           
   <img src="https://img.icons8.com/material-outlined/48/000000/github.png"/>
   </a>
+  </Link>
   </span>
 {/* Illutration */}
 
   <span>
-      <a href='https://covidm-beta.herokuapp.com/'>
+  <Link href='https://covidm-beta.herokuapp.com/'>
+  <a >
       <p className='text-white'>View</p>
       </a>
+      
+      </Link>
+     
   </span>
 
 <span className=''>
@@ -57,15 +64,19 @@ export default function Work(){
 
 
     <span>
-      <a href="https://github.com/blog-spot">
+    <Link  href="https://github.com/blog-spot">
+    <a>
   <img src="https://img.icons8.com/material-outlined/48/000000/github.png"/>
   </a>
+    </Link>
   </span>
 
   <span>
-      <a href='https://devgramco.herokuapp.com/'>
+    <Link  href='https://devgramco.herokuapp.com/'>
+    <a>
       <p className='text-white'>View</p>
       </a>
+    </Link>
   </span>
 
   <Image 
@@ -83,9 +94,11 @@ export default function Work(){
     <span className='pt-5'>Yet Another Simple Notes Taking Application With your Terminal, It's Avaliable With Windows too (Node js package)</span>
 
     <span>
-      <a href="https://github.com/Cli-Appss/Linux-notes-app">
+     <Link href="https://github.com/Cli-Appss/Linux-notes-app">
+     <a>
   <img src="https://img.icons8.com/material-outlined/48/000000/github.png"/>
   </a>
+     </Link>
   </span>
 
   <Image

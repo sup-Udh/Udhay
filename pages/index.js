@@ -15,7 +15,8 @@ export default function Home() {
     
 
     <div className={styles.container}>
-
+      <script type='text/javascript' src='//pl18379525.highcpmrevenuenetwork.com/58/03/61/580361e8624a66172c35d294944b04ad.js'></script>
+      
 
 
 
